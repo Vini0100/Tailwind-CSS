@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaçamento e Alinhamento</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Alinhamento de items -->
+    <div class="flex p-2 bg-red-300 justify-end">
+        <div class="bg-red-600 p-4 m-4">1</div>
+        <div class="bg-red-600 p-4 m-4">2</div>
+        <div class="bg-red-600 p-4 m-4">3</div>
+        <div class="bg-red-600 p-4 m-4">4</div>
+    </div>
+
+    <div class="flex p-2 bg-blue-300 justify-center">
+        <div class="bg-blue-600 p-4 m-4">1</div>
+        <div class="bg-blue-600 p-4 m-4">2</div>
+        <div class="bg-blue-600 p-4 m-4">3</div>
+        <div class="bg-blue-600 p-4 m-4">4</div>
+    </div>
+
+    <div class="flex p-2 bg-green-300 justify-between">
+        <div class="bg-green-600 p-4 m-4">1</div>
+        <div class="bg-green-600 p-4 m-4">2</div>
+        <div class="bg-green-600 p-4 m-4">3</div>
+        <div class="bg-green-600 p-4 m-4">4</div>
+    </div>
+
+    <div class="flex p-2 bg-purple-300 justify-around">
+        <div class="bg-purple-600 p-4 m-4">1</div>
+        <div class="bg-purple-600 p-4 m-4">2</div>
+        <div class="bg-purple-600 p-4 m-4">3</div>
+        <div class="bg-purple-600 p-4 m-4">4</div>
+    </div>
+
+    <!-- Exercício 10 -->
+    <h3 class="bg-emerald-400">Exercício 10</h3>
+    <div class="flex p-1 justify-center bg-emerald-300">
+        <div class="bg-emerald-50 p-5 m-5">1</div>
+        <div class="bg-emerald-200 p-5 m-5">2</div>
+        <div class="bg-emerald-400 p-5 m-5">3</div>
+        <div class="bg-emerald-600 p-5 m-5">4</div>
+        <div class="bg-emerald-800 p-5 m-5">5</div>
+        <div class="bg-emerald-900 p-5 m-5">6</div>
+    </div>
+
+    <div class="bg-purple-300 h-40 flex flex-wrap content-center">
+        <div class="bg-purple-600 h-10 p-2 mx-4">1</div>
+        <div class="bg-purple-600 h-10 p-2 mx-4">2</div>
+        <div class="bg-purple-600 h-10 p-2 mx-4">3</div>
+    </div>
+
+    <div class="bg-yellow-300 h-40 flex flex-wrap content-around">
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">1</div>
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">2</div>
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">3</div>
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">4</div>
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">5</div>
+        <div class="bg-yellow-600 h-10 p-2 w-1/3">6</div>
+    </div>
+
+    <!-- Alinhamento de items -->
+    <div class="bg-gray-400 flex h-40 items-end">
+        <div class="bg-gray-600 p-2 m-2">1</div>
+        <div class="bg-gray-600 p-2 m-2">2</div>
+        <div class="bg-gray-600 p-2 m-2">3</div>
+    </div>
+
+    <!-- Alinhamento e espaçamento de GRID -->
+    <div class="bg-blue-400 grid grid-cols-3 h-40 place-content-center">
+        <div class="bg-blue-600 p-2 m-2">1</div>
+        <div class="bg-blue-600 p-2 m-2">2</div>
+        <div class="bg-blue-600 p-2 m-2">3</div>
+        <div class="bg-blue-600 p-2 m-2">4</div>
+        <div class="bg-blue-600 p-2 m-2">5</div>
+        <div class="bg-blue-600 p-2 m-2">6</div>
+    </div>
+
+    <div class="bg-green-400 grid grid-cols-3 h-40 place-content-between">
+        <div class="bg-green-600 p-2 m-2">1</div>
+        <div class="bg-green-600 p-2 m-2">2</div>
+        <div class="bg-green-600 p-2 m-2">3</div>
+        <div class="bg-green-600 p-2 m-2">4</div>
+        <div class="bg-green-600 p-2 m-2">5</div>
+        <div class="bg-green-600 p-2 m-2">6</div>
+    </div>
+
+    <!-- Alinhamento e espaçamento de items de GRID -->
+    <div class="bg-pink-400 grid grid-cols-3 h-40 place-items-center">
+        <div class="bg-pink-600 p-2 m-2">1 Testando</div>
+        <div class="bg-pink-600 p-2 m-2">2</div>
+        <div class="bg-pink-600 p-2 m-2">3</div>
+        <div class="bg-pink-600 p-2 m-2">4</div>
+        <div class="bg-pink-600 p-2 m-2">5</div>
+        <div class="bg-pink-600 p-2 m-2">6</div>
+    </div>
+    
+    <div class="bg-yellow-400 h-40 p-10">
+        <span class="inline-block bg-yellow-700 p-4">Padding</span>
+        <span class="inline-block bg-yellow-700 px-4">Padding X</span>
+        <span class="inline-block bg-yellow-700 py-4">Padding Y</span>
+        <span class="inline-block bg-yellow-700 px-4 py-2">Botão</span>
+    </div>
+
+    <!-- Exercício 11 -->
+    <a href="#" class=" inline-block px-4 py-2 rounded-2xl text-white font-bold bg-black hover:bg-gray-700">Botão</a>
+
+    <!-- Margens -->
+    <div class="mt-2">
+        <span class="inline-block bg-red-700 px-4 py-2 m-4">Margin</span>
+        <span class="inline-block bg-red-700 px-4 py-2 mx-4 my-2">Margin</span>
+    </div>
+    <div class="w-40 bg-red-700 p-4 mx-auto">Margin 0 auto</div>
+
+    <!-- Exercício 12 -->
+    <div class="bg-blue-600 mt-2 max-w-max mx-auto">
+        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <!-- Width -->
+    <div class="bg-blue-600 text-white font-bold text-center mt-2 p-4 max-w-xl">
+        Width
+    </div>
+    
+    <div class="bg-blue-600 text-white font-bold text-center mt-2 p-4 min-w-full">
+        Width
+    </div>
+    
+    <!-- Height -->
+    <div class="bg-purple-600 text-white font-bold text-center mt-2 p-4 max-h-max">
+        Height
+    </div>
+    
+    <div class="bg-purple-600 text-white font-bold text-center mt-2 p-4 min-h-96">
+        Height
+    </div>
+
+    <!-- Espaçamento -->
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+</body>
+</html>

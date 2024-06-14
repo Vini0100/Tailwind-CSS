@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Removendo aparencias -->
+    <div class="m-4">
+        <select class="appearance-none">
+            <option value="">Teste</option>
+        </select>
+        <select>
+            <option value="">Teste</option>
+        </select>
+    </div>
+
+    <!-- Cursor do mouse -->
+    <div class="h-20 bg-pink-400 cursor-pointer">cursor-pointer</div>
+    <div class="h-20 bg-pink-500 cursor-wait">cursor-wait</div>
+    <div class="h-20 bg-pink-600 cursor-not-allowed">cursor-not-allowed</div>
+    <div class="h-20 bg-pink-700 cursor-text">cursor-text</div>
+
+    <!-- Removendo outilne -->
+    <div class="p-4 bg-red-300 my-4">
+        <input type="text" placeholder="Clique em mim" class="outline-none">
+        <input type="text" placeholder="Clique em mim 2">
+    </div>
+
+    <!-- Removendo pointer events -->
+    <div class="bg-gray-300 p-4">
+        <select class="pointer-events-none">
+            <option value="">Teste</option>
+        </select>
+        <select>
+            <option value="">Teste</option>
+        </select>
+        <div class="m-4">
+            <textarea cols="30" rows="10" class="pointer-events-none"></textarea>
+            <textarea cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+    <!-- Modificando o resize -->
+    <div class="m-4 bg-blue-300 p-4">
+        <textarea cols="30" rows="10" class="resize-none"></textarea>
+        <textarea cols="30" rows="10" class="resize-x"></textarea>
+        <textarea cols="30" rows="10" class="resize-y"></textarea>
+    </div>
+
+    <!-- Removendo seleção -->
+    <div class="m-4 bg-green-300 p-4">
+        <p class="select-none">Este paragrafo nao pode ser selecionado</p>
+        <p class="select-all">Este paragrafo pode ser selecionado todo</p>
+    </div>
+
+    
+
+    <!-- Espaçamento -->
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+    <p class="m-20">Espaçamento</p>
+</body>
+</html>
